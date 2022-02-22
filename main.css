@@ -1,0 +1,92 @@
+.company-name {
+    background-color: rgb(212, 164, 42);
+    color: white;
+    padding: 10px 40px;
+    position: absolute;
+    
+}
+.navbar {
+    background-color: rgb(212, 164, 42);
+    position: relative;
+    float: right;
+    padding-top: 35px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+.navbar-container {
+    background-color: rgb(212, 164, 42);
+    height: 100px;
+    margin: 10px;
+}   
+.dashboard {
+    
+    border: solid 2px rgb(212, 164, 42);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    float: left;
+    width: 250px;
+    height: 500px;
+    
+}
+.budget {
+    border: solid 2px rgb(212, 164, 42);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    float: left;
+    width: 250px;
+    height: 500px;
+}
+.checkbooks {
+    border: solid 2px rgb(212, 164, 42);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    float: left;
+    width: 250px;
+    height: 500px;
+}
+.money {
+    border: solid 2px rgb(212, 164, 42);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    float: left; 
+    width: 250px;
+    height: 500px;
+
+}
+.main-container {
+    
+    
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 255, 234);
+}
+#button {
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    
+    float: right;
+    position: absolute;
+    top: 75%;
+}
+button {
+    background-color: rgb(212, 164, 42);
+    border-color: rgb(212, 164, 42);
+    border-radius: 5px;
+    height: 30px;
+    width: 220px;
+    
+}
