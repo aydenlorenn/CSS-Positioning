@@ -2,14 +2,13 @@
     background-color: rgb(212, 164, 42);
     color: white;
     padding: 10px 40px;
-    position: absolute;
-    
 }
 .navbar {
     background-color: rgb(212, 164, 42);
-    position: relative;
-    float: right;
-    padding-top: 35px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
 }
 a {
     color: white;
@@ -21,18 +20,20 @@ a {
     background-color: rgb(212, 164, 42);
     height: 100px;
     margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }   
 .dashboard {
-    
     border: solid 2px rgb(212, 164, 42);
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
     background-color: white;
-    float: left;
     width: 250px;
     height: 500px;
-    
+    display: flex;
+    flex-direction: column;
 }
 .budget {
     border: solid 2px rgb(212, 164, 42);
@@ -40,9 +41,10 @@ a {
     padding: 10px;
     margin: 10px;
     background-color: white;
-    float: left;
     width: 250px;
     height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 .checkbooks {
     border: solid 2px rgb(212, 164, 42);
@@ -50,9 +52,10 @@ a {
     padding: 10px;
     margin: 10px;
     background-color: white;
-    float: left;
     width: 250px;
     height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 .money {
     border: solid 2px rgb(212, 164, 42);
@@ -60,33 +63,36 @@ a {
     padding: 10px;
     margin: 10px;
     background-color: white;
-    float: left; 
     width: 250px;
     height: 500px;
-
+    display: flex;
+    flex-direction: column;
 }
 .main-container {
-    
-    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(255, 255, 234);
 }
-#button {
-    margin: 10px;
-    padding: 5px;
-    color: white;
-    
-    float: right;
-    position: absolute;
-    top: 75%;
+div p {
+    display: flex;
+    align-self: center;
+    font-size: 16px;
 }
 button {
+    color: white;
     background-color: rgb(212, 164, 42);
     border-color: rgb(212, 164, 42);
     border-radius: 5px;
     height: 30px;
     width: 220px;
-    
+    margin-top: 65px;
+    padding-top: 4px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
 }
